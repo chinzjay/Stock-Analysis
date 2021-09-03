@@ -1,29 +1,30 @@
 # Stock-Analysis
 
 ## Overview of Project
-The purpose of this project is to refactor the code to make the script run faster.
+The purpose of this project is to refactor the code to measure the performance of the VBA script.
 
 ## Results
-In the refactoring process output arrays were created for Ticker Volume, Ticker Starting Price and Ticker Ending Price. A ticker index variable was created to access the values across th eour different arrays. I have also used ticker index use img and eg of code used, 
+Three output arrays were created for Ticker Volume, Ticker Starting Price and Ticker Ending Price. A ticker index variable was created to access the values across the four different arrays; the tickers array and the output arrays. A For loop was created to initialize the ticker volume to zero. Using the tickerIndex variable as the index, the current Ticker Volume is increased ans the ticker Volume is added. Fig 1 is a screenshot on how the output arrays and the tickerIndex was created and also how the tickerVolume is increased. 
+https://github.com/chinzjay/Kickstarter_Analysis/commit/928e4af1b260ba26413bb53997d63029d6f5b4b3
 ![VBA_Challenge_2017](https://github.com/chinzjay/Stock-Analysis/blob/main/VBA_Challenge_2017.png)
 |:--:|
-|Fig 1. Run Time for the VBA Script after code refactoring for the year 2017|
+|Fig 2. Run Time for the VBA Script after code refactoring for the year 2017|
 
 ![2017-NR](https://github.com/chinzjay/Stock-Analysis/blob/main/2017-NR.png)
 |:--:|
-|Fig 2. Run Time for the VBA Script before refactoring for the year 2017|
+|Fig 3. Run Time for the VBA Script before refactoring for the year 2017|
 
-Fig 1 represents the run time for the script before refactoring. Fig 2 represents the the run time after refactoring for the year 2018. It s evident from Fig 1 and Fig 2 that the run tim has been cut down to half after refactoring. 
+Fig 3 represents the run time for the script before refactoring. Fig 4 represents the the run time after refactoring for the year 2018. It s evident from Fig 3 and Fig 4 that the run tim has been cut down to half after refactoring. 
 
 ![VBA_Challenge_2018](https://github.com/chinzjay/Stock-Analysis/blob/main/VBA_Challenge_2018.png)
 |:--:|
-|Fig 3. Run Time for the VBA Script after code refactoring for the year 2018|
+|Fig 4. Run Time for the VBA Script after code refactoring for the year 2018|
 
 ![2018-NR](https://github.com/chinzjay/Stock-Analysis/blob/main/2018-NR.png)
 |:--:|
-|Fig 4. Run Time for the VBA Script before refactoring for the year 2018|
+|Fig 5. Run Time for the VBA Script before refactoring for the year 2018|
 
-Similarly comparing Fig3 and Fig 4z we can conclude that the run time has reduced significantly after code refactoring.
+Similarly comparing Fig4 and Fig 5 we can conclude that the run time has reduced significantly after code refactoring.
 ## Summary
 Refactoring the code has its advantages as well as disadvantages.
 Some of the advantages of refactoring the code includes
