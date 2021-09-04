@@ -16,6 +16,8 @@ As part of refactoring, the following changes were made to the code
 |Fig 1. Screenshot of the code|
 
 ### Analysis for 2017
+We can see from *Fig 2. (code run time for year 2017 before refactoring)*  and *Fig 3.(code run time for year 2017 after refactoring)* that it took 1.91 seconds for the code to run before whereas after code refactoring it took just 0.81 seconds.
+
 ![2017-NR](https://github.com/chinzjay/Stock-Analysis/blob/main/2017-NR.png)
 |:--:|
 |Fig 2. Run Time for the VBA Script before refactoring for the year 2017|
@@ -24,9 +26,9 @@ As part of refactoring, the following changes were made to the code
 |:--:|
 |Fig 3. Run Time for the VBA Script after refactoring for the year 2017|
 
-We can see from *Fig 2. (code run time for year 2017 before refactoring)*  and *Fig 3.(code run time for year 2017 after refactoring)* that it took 1.91 seconds for the code to run before whereas after code refactoring it took just 0.81 seconds. 
-
 ### Analysis for 2018
+We can see from *Fig 4.(code run time for year 2018 before refactoring)* and *Fig 5.(code run time for year 2018 after refactoring)* that it took 1.93 seconds for the code to run before whereas after refactoring it ran in just 0.86 seconds. The run time in both the cases has come down by more than half. Therefore we can conclude that code refactoring makes the code run more efficiently. 
+
 ![2018-NR](https://github.com/chinzjay/Stock-Analysis/blob/main/2018-NR.png)
 |:--:|
 |Fig 4. Run Time for the VBA Script before refactoring for the year 2018|
@@ -34,8 +36,6 @@ We can see from *Fig 2. (code run time for year 2017 before refactoring)*  and *
 ![VBA_Challenge_2018](https://github.com/chinzjay/Stock-Analysis/blob/main/VBA_Challenge_2018.png)
 |:--:|
 |Fig 5. Run Time for the VBA Script after code refactoring for the year 2018|
-
-We can see from *Fig 4.(code run time for year 2018 before refactoring)* and *Fig 5.(code run time for year 2018 after refactoring)* that it took 1.93 seconds for the code to run before whereas after refactoring it ran in just 0.86 seconds. The run time in both the cases has come down by more than half. Therefore we can conclude that code refactoring makes the code run more efficiently. 
 
 ## Summary
 Refactoring the code has advantages but at the same time it can also have some disadvantages.
