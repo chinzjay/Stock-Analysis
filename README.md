@@ -15,6 +15,7 @@ As part of refactoring, the following changes were made to the code
 |:--:|
 |Fig 1. Screenshot of the code|
 
+### Analysis for 2017
 ![2017-NR](https://github.com/chinzjay/Stock-Analysis/blob/main/2017-NR.png)
 |:--:|
 |Fig 2. Run Time for the VBA Script before refactoring for the year 2017|
@@ -25,6 +26,7 @@ As part of refactoring, the following changes were made to the code
 
 We can see from *Fig 2. (code run time for year 2017 before refactoring)*  and *Fig 3.(code run time for year 2017 after refactoring)* that it took 1.91 seconds for the code to run before whereas after code refactoring it took just 0.81 seconds. 
 
+### Analysis for 2018
 ![2018-NR](https://github.com/chinzjay/Stock-Analysis/blob/main/2018-NR.png)
 |:--:|
 |Fig 4. Run Time for the VBA Script before refactoring for the year 2018|
